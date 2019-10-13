@@ -1,0 +1,311 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2 class="text-center pt-4 pb-3">Cenník našich služieb</h2>
+</div>
+
+
+<div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Pezinok</a>
+                <a class="nav-item nav-link" id="nav-petrzalka-tab" data-toggle="tab" href="#nav-petrzalka" role="tab" aria-controls="nav-petrzalka" aria-selected="false">Petržalka</a>
+                <a class="nav-item nav-link" id="nav-dubravka-tab" data-toggle="tab" href="#nav-dubravka" role="tab" aria-controls="nav-dubravka" aria-selected="false">Dúbravka</a>
+                <a class="nav-item nav-link" id="nav-platba-tab" data-toggle="tab" href="#nav-platba" role="tab" aria-controls="nav-platba" aria-selected="false">Platba</a>
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <table class="table table-sm table-bordered table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center">Krasokorčuľovanie</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="d-inline-block col-4">Počet</th>
+                                    <th class="d-inline-block col-4">6 x 1h Sobota (Klasický)</th>
+                                    <th class="d-inline-block col-4">6 x 2h Sobota (Intenzívny)</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba</th>
+                                    <th class="d-inline-block col-4 text-center">48Eur</th>
+                                    <th class="d-inline-block col-4 text-center">90Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">2 členná rodina</th>
+                                    <th class="d-inline-block col-4 text-center">92Eur</th>
+                                    <th class="d-inline-block col-4 text-center">168Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">3 členná rodina</th>
+                                    <th class="d-inline-block col-4 text-center">133ur</th>
+                                    <th class="d-inline-block col-4 text-center">234Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">4 členná rodina</th>
+                                    <th class="d-inline-block col-4 text-center">170ur</th>
+                                    <th class="d-inline-block col-4 text-center">288Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">5 členná rodina</th>
+                                    <th class="d-inline-block col-4 text-center">204Eur</th>
+                                    <th class="d-inline-block col-4 text-center">330Eur</th>
+                                </tr>
+                               <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">Individuálne hodiny krasokoručuľovania</th>
+                                 </tr>
+                                <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas hodiny v kurze</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                    <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                    <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba 46Eur (2 x 60min)</th>
+                                    <th class="d-inline-block col-4 text-center">2 osoby 64Eur (2 x 60min)</th>
+                                     <th class="d-inline-block col-4 text-center">3 osoby 70Eur (2 x 60min)</th>
+                                </tr> 
+                                <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas verejného korčuľovania</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                    <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                    <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba 46Eur (2 x 60min)</th>
+                                    <th class="d-inline-block col-4 text-center">2 osoby 64Eur (2 x 60min)</th>
+                                    <th class="d-inline-block col-4 text-center">3 osoby 70Eur (2 x 60min)</th>
+                                </tr>   
+                                <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">Hokejové korčuľovanie</th>
+                                </tr>
+                                <tr>
+                                    <th class="d-inline-block col-4">1 osoba</th>
+                                    <th class="d-inline-block col-4 text-center">66Eur</th>
+                                    <th class="d-inline-block col-4 text-center">--</th>
+                                </tr>                                                                  
+                            </tbody>
+                        </table>
+              </div><!-- .Tab-oaner --> 
+           
+              <div class="tab-pane fade" id="nav-petrzalka" role="tabpanel" aria-labelledby="nav-petrzalka-tab">
+                            <table class="table table-sm table-bordered table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center">Krasokorčuľovanie</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="d-inline-block col-4">Počet</th>
+                                        <th class="d-inline-block col-4">Jednorázová hodina</th>
+                                        <th class="d-inline-block col-4">Pravidlené hodiny</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba</th>
+                                        <th class="d-inline-block col-4 text-center">9Eur</th>
+                                        <th class="d-inline-block col-4 text-center">48Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">2 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">17Eur</th>
+                                        <th class="d-inline-block col-4 text-center">92Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">3 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">133Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">4 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">31Eur</th>
+                                        <th class="d-inline-block col-4 text-center">177Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">5 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">37Eur</th>
+                                        <th class="d-inline-block col-4 text-center">204Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">Individuálne hodiny krasokoručuľovania</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas hodiny v kurze</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                        <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas verejného korčuľovania</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                        <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                    </tr>  
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">In-line korčuľovanie</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba</th>
+                                        <th class="d-inline-block col-4 text-center">9Eur</th>
+                                        <th class="d-inline-block col-4 text-center">48Eur</th>
+                                    </tr>                                                                     
+                                </tbody>
+                            </table>
+                    </div>
+                
+              <div class="tab-pane fade" id="nav-dubravka" role="tabpanel" aria-labelledby="nav-dubravka-tab">
+                            <table class="table table-sm table-bordered table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center">Krasokorčuľovanie</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="d-inline-block col-4">Počet</th>
+                                        <th class="d-inline-block col-4">Jednorázová hodina</th>
+                                        <th class="d-inline-block col-4">6 x 1h Sobota (Pravidelný)</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba</th>
+                                        <th class="d-inline-block col-4 text-center">9Eur</th>
+                                        <th class="d-inline-block col-4 text-center">48Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">2 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">17Eur</th>
+                                        <th class="d-inline-block col-4 text-center">92Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">3 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">133Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">4 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">31Eur</th>
+                                        <th class="d-inline-block col-4 text-center">177Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">5 členná rodina</th>
+                                        <th class="d-inline-block col-4 text-center">37Eur</th>
+                                        <th class="d-inline-block col-4 text-center">204Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">Individuálne hodiny krasokoručuľovania</th>
+                                        </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas hodiny v kurze</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                        <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-light text-dark font-italic">Počas verejného korčuľovania</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba (One to One) 25Eur</th>
+                                        <th class="d-inline-block col-4 text-center">2 osoby 35Eur</th>
+                                        <th class="d-inline-block col-4 text-center">3 osoby 40Eur</th>
+                                    </tr>  
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center bg-dark text-white ">Hokejové korčuľovanie</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">1 osoba</th>
+                                        <th class="d-inline-block col-4 text-center">11Eur</th>
+                                        <th class="d-inline-block col-4 text-center">66Eur</th>
+                                    </tr>                                                                     
+                                </tbody>
+                            </table>
+                    </div>  
+                
+              <div class="tab-pane fade" id="nav-platba" role="tabpanel" aria-labelledby="nav-platba-tab">
+                    <p class="text-justify pl-1">Prosíme platby realizovať výhradne na náš bankový účet. Platby realizujte vždy najnesķôr 4 dni pred 
+                        začatím hodiny.</p>
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12">
+                            <table class="table table-bordered table-hover">
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th colspan="12" scope="colgroup" class="text-center">Realizácia platby</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="d-inline-block col-4">Názov banky:</th>
+                                        <th class="d-inline-block col-8">Fio Banka</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">Čislo účtu (IBAN):</th>
+                                        <th class="d-inline-block col-8">SK21 8330 0000 0022 0105 9016</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">BIC/SWIFT kód:</th>
+                                        <th class="d-inline-block col-8">FIOZSKBAXXX</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="d-inline-block col-4">Správa pre príjemncu:</th>
+                                        <th class="d-inline-block col-8">Meno a Priezvisko + Štadión</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="pl-1"><em><strong>Bez uvedenia Mena a Priezviska + Štadiónú nevieme platbu správovať!</strong></em></p>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <table class="table table-borderless table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th colspan="12" scope="colgroup" class="text-center">Platba mobilom</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="col-4">
+                                            {% load static %}
+                                            <img src="{% static "Web_App/images/pk.png" %}" class="rounded mx-auto d-block" alt="QC">
+                                        </th>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <p class="text-justify pl-1 pr-1">Pri pravidelnom záujme o individuálne hodiny počas hodín verejného korčuľovania ponúkame individuálne ZĽAVY 
+                                <em>(platí pri kúpe aspoň troch hodín za mesiac a pri platbe naraz za všetky hodiny).</em></p>
+                            <p class="pl-1"><strong>UPOZORNENIE: Platbu za jednorázovú hodinu v prípade neúčasti nevraciame.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div><!--.Tab-pane-->
+            </div>
+          </div>
+        </div>
+  </div><!-- .Container -->
+
+  <!-- JS to activate tabs-->
+  <script>
+        $(document).ready(function(){
+          $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+          });
+        });
+    </script>
+{% endblock %}

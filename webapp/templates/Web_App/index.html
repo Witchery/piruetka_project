@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- About us section-->
+    <div class="jumbotron jumbotron-fluid bg-white text-center">
+        <div class="container">
+          <h1 class="display-4">Piruetka - škola korčuľovania</h1>
+          <p class="lead">Občianské združenie Piruetka</p>
+          {% load static %}
+          <img src="{% static "Web_App/images/black_logo.jpg" %}" class="mx-auto d-block img-fluid unlock-icon" alt="Unlock">
+        </div>
+    </div><!-- /.jumbotron -->
+
+    <div  class="container text-center">
+        <h2>Ako sme vznikli</h2>
+        <p class="text-center">Za vznikom Piruetky ako Školy korčuľovania stáli dve mladé slečny, ktoré sa začali venovať 
+            tomuto športu nie od ranného detstva ako je to zvykom, ale na korčule sa postavili v podstate až v dospelom veku. 
+            Tým by chceli poukázať na to, že vek nie je žiadnou prekážkou, keď má niekto záujem, chuť a odhodlanie, môže si splniť 
+            svoj sen hocikedy. Našou úlohou je nie len deti, ale aj dospelých motivovať k lepším výkonom, ukázať im aký je tento 
+            šport jedinečný a krásny. Našim cieľom je, aby ľudia ktorí k nám prídu, zažívali príjemné pocity a zažili veľa radostných 
+            chvíľ na ľade. Samozrejme, že tento šport nie je len o zábave ale aj o drine. </p></br>
+        <h2 class="text-center">Čo Vám môžeme ponúknuť</h2>
+    </div><!-- /.container -->
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="card-group">
+                <div class="card border-light">
+                    {% load static %}
+                    <img src="{% static "Web_App/images/inline_skate.jpg" %}" class="rounded mx-auto" alt="My image">                   
+ 
+                  <div class="card-body text-justify">
+                    <h2 class="card-title">In-line korčuľovanie</h5>
+                    <p class="card-text">Chcete športovať na vzduchu? Zlepšiť si kondíciu a vytvarovať postavu? Skúste inline korčuľovanie. Spálite toľko 
+                            kalórií ako pri behu a navyše si nezaťažíte kĺby. Skvelý spôsob rozhýbať si telo, najmä ak máte sedavé zamestnanie.
+                            Korčuľovanie patrí medzi rekreačné športy, ktorý nemá vekové obmedzenie. Jediným obmedzením je sezónnosť a vplyv počasia.</p>
+                  </div>
+                  <div class="card-footer text-right border-light bg-transparent">
+                    <small class="text-muted"><a class="btn btn-primary" href="#" role="button">Objednať &raquo;</a></small>
+                  </div>
+                </div>
+                <div class="card border-light">
+                        {% load static %}
+                        <img src="{% static "Web_App/images/figure-skate.jpg" %}" class="rounded mx-auto" alt="My image">
+                  <div class="card-body text-justify">
+                    <h2 class="card-title">Krasokorčuľovanie</h5>
+                    <p class="card-text">Krasokorčuľovanie nie je iba šport, ale je to stret pohybu, zákonov fyziky, ladnosti a krásy. Krasokorčušovanie 
+                            je jeden z mála športov, ktorý prispieva k utužovaniu imunitného systému. 
+                            Korčuľovaním sa podporuje správne držanie tela, koordinácia, rozvoj sily a pohyblivosti. Baví Vás pohyb a tanec? Máte zmysel pre rytmus? 
+                            Radi korčuľujete? Stante sa aj Vy krasokorčuliarkou, krasokorčuliarom.</p>
+                  </div>
+                  <div class="card-footer text-right border-light bg-transparent">
+                    <small class="text-muted"><a class="btn btn-primary" href="#" role="button">Objednať &raquo;</a></small>
+                  </div>
+                </div>
+                <div class="card border-light">
+                    {% load static %}
+                    <img src="{% static "Web_App/images/ice_hockey.jpg" %}" class="rounded mx-auto" alt="My image">                                        
+                  <div class="card-body text-justify">
+                    <h2 class="card-title">Hokejové korčuľovanie</h5>
+                    <p class="card-text">Korčuľovanie je základnou a zároveň najzložitejšou činnosťou hráča ľadového hokeja. Správna technika korčuľovania vytvára
+                        dobrý základ pre všetky ostatné hokejové zručnosti - vedenie puku, kľučkovanie, bránenie... Nácvik jednotlivých hokejových zručností 
+                        realizuje s profesiónálnymi trénermi. Ak sa chcete zlepšiť či poriadne zapotiť neváhajte sa prihlásiť.
+                    </p>
+                  </div>
+                  <div class="card-footer text-right border-light bg-transparent">
+                    <small class="text-muted"><a class="btn btn-primary" href="#" role="button">Objednať &raquo;</a></small>
+                  </div>
+                </div>
+              </div>
+    </div><!-- /.row -->
+</div><!-- /.container -->
+
+<!--
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+-->        
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    -->
+{% endblock %}    
+

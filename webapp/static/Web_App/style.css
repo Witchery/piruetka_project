@@ -1,0 +1,191 @@
+body {
+    padding-top: 80px;
+}
+
+/* Social media */
+
+.socialmedia ul {
+
+    display:flex;
+}
+
+.socialmedia ul li {
+    list-style:none;
+}
+.socialmedia ul li a {
+    position:relative;
+    display:block;
+    width:80px;
+    height:80px;
+    font-size:20px;
+    text-align:center;
+    line-height:80px;
+    color:#262626;
+    overflow:hidden;
+    
+    margin:15px;
+    transform:rotate(45deg);
+    transition:.2s;
+    border:1px solid rgba(0,0,0,1);
+}
+.socialmedia ul li a .fa{
+    transform:rotate(-45deg);
+    font-size: 2rem;
+}
+.socialmedia ul li a:before {
+    content:'';
+    position:absolute;
+    bottom:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#262626;
+    transition:.2s;
+}
+.socialmedia ul li a:hover:before {
+    bottom:0;
+}
+.socialmedia ul li a:hover {
+    color:#fff;
+}
+.socialmedia ul li:nth-child(1) a:before
+{
+    background:#3b5998;
+}
+.socialmedia ul li:nth-child(2) a:before
+{
+    background:#00aced;
+}
+.socialmedia ul li:nth-child(3) a:before
+{
+    background:#dd4b39;
+}
+.socialmedia ul li:nth-child(4) a:before
+{
+    background:#007bb6;
+}
+.socialmedia ul li:nth-child(5) a:before
+{
+    background:#bc2a8d;
+}
+
+
+.container h1 {
+    font-family: 'Courgette', cursive;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Courgette', cursive;
+    font-size: 2em;
+}
+
+/* Stadions nav-tab style */
+
+nav > .nav.nav-tabs{
+
+    border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #343a40 ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #343a40;
+    border-bottom:5px solid #343a40;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #007bff;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+.display_block {
+    display:block;
+}
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:6.25%;
+    position:relative;
+    height:0;
+    }
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/* Frequently Asked Questions */
+.myaccordion {
+    width: 100%;
+    margin: 50px auto;
+  }
+   
+  .myaccordion .card,
+  .myaccordion .card:last-child .card-header {
+    border: 1px solid;
+    border-color: rgb(180, 180, 180);
+  }
+   
+  .myaccordion .card-header {
+    border-bottom-color: rgb(8, 8, 8);
+    background: transparent;
+    border-radius: 30px;
+    padding: 0px;
+  }
+  /* 
+  .myaccordion .fa-stack {
+    font-size: 28px;
+    width: 2em;
+  }
+*/
+
+/* FAQ */
+.accordion .card-header:after {
+    font-family: 'Font Awesome 5 PRO';  
+    content: "\f107";
+    float: left; 
+    padding-right: 10px
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f324"; 
+}
+
+/* Contact card */
+#contact .card:hover i,#contact .card:hover h5{
+	color: #007bff;
+}

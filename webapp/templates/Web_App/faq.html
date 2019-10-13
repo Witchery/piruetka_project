@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+        <h1 class="text-center pt-4 pb-3">Často kladené otázky</h1>
+        <div class="text-center">
+        <p class="text-center w-75 m-auto font-weight-light">Ak ste tu nenašli odpoveď na svoje otázky, neváhajte nás kontaktovať osobne, telefonicky či mmailom. Radi Vám odpovieme.</p>
+        </div>
+</div><!--.End container-->
+
+
+<div class="container">
+        <div id="accordion" class="accordion">
+            <div class="card mb-0">
+                <div class="card-header bg-dark text-white mb-1 rounded collapsed" data-toggle="collapse" href="#collapseOne">
+                    <a class="card-title">
+                        V akom veku môžem prihlásiť svoje dieťa/seba na korčuľovanie?
+                    </a>
+                </div>
+                <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
+                    <p>My odporúčame na základe našich skúseností a rady ortopédov prihlasovať deti od 4 rokov. Nakoľko do toho veku sa deťom vyvíjajú nožičky.
+                        Taktiež zvážte či Vaše dieťa zvládne byť s trénerom samé hodinu.</br>
+                        Dospelí nadšenci korčuľovania sa môžú prihlásiť v akomkoľvek veku, podľa svojho uváženia.
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    <a class="card-title">
+                        Ak som ešte nikdy nestál(a) na ľade môžem prísť?
+                    </a>
+                </div>
+                <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
+                    <p>Samozrejme, naše kurzy sú určené pre všetkých či úplných začiatočníkov, ktorí ešte nikdy nestáli na ľade, až po pokročilých korčuliarov. 
+                        Tréner Vás všetko naučí krok po kroku, od úplných začiatkov až po zložité krasokorčuliarske prvky.
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                    <a class="card-title">
+                        Ako sa zapísať na kurz?
+                    </a>
+                </div>
+                <div id="collapseNine" class="card-body collapse" data-parent="#accordion" >
+                    <ol>
+                        <li>Vyplňte záväznú prihlášku <a href=""></a></li>
+                        <li>V čas uhradte poplatok na náš účet.</li>
+                        <li>Na hodinu prídite min. o 15 minút skôr.</li>
+                        <li>Prineste si nabrúsené korčule, helmu a dobrú náladu.</li>
+                    </ol>
+                </div>                
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    <a class="card-title">
+                            Čo si mám na ľad obliecť?
+                    </a>
+                </div>
+                <div id="collapseThree" class="card-body collapse" data-parent="#accordion" >
+                    <p>Na štadiónoch býva väčšinou chladnejšie, niekde až zima. Záleží od konkrétneho ročného obdobia. 
+                        V halách býva od jedného stupňa v zime, po 15 na jar. Odporúčame si dať na seba termo oblečenie, šál, čiapku, rukavice (pre deti tvrdené).
+                        Menším detičkám odporúčame oteplovačky, keďže sa veľa váľajú po ľade. Všetky deti musia mať <span class="font-weight-bold">lyžiarsku helmu</span>.
+                        Cyklistická helma <span class="font-weight-bold">nie je vhodná</span>.
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    <a class="card-title">
+                        Môžem si u Vás zapožičať korčule?
+                    </a>
+                </div>
+                <div id="collapseFour" class="card-body collapse" data-parent="#accordion" >
+                    <p>Áno. Na všetkých štadiónoch kde ponúkame naše kurzy je požičovňa korčúľ , kde sa dajú požičať korčule za malý poplatok.
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    <a class="card-title">
+                        Musím si kúpiť celý kurz, alebo je možný aj jednorazový vstup?
+                    </a>
+                </div>
+                <div id="collapseFive" class="card-body collapse" data-parent="#accordion" >
+                    <p>U nás je samozrejme možnosť si zakúpiť aj jednorazový vstup na konkrétnu hodinu, ak nemáme zaplnené kapacity (platí pre kurzy v Petržalke).
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                    <a class="card-title">
+                        Aké korčule sú najvhodnejšie na kurzy?
+                    </a>
+                </div>
+                <div id="collapseSix" class="card-body collapse" data-parent="#accordion" >
+                    <p>Pre deti odporúčame od začiatku korčule na <span class="font-weight-bold">zaväzovanie tzv. šnurovacie</span>. Nie je nutné hneď kupovať nové, stačí ak zakúpite v bazári aj korčule 
+                        už nosené, nakoľko deťom rýchlo rastú nohy. Plastové tzv. posuvné korčule neodporúčame. Dieťa sa na týchto korčuliach nedokáže ani zďaleka 
+                        naučiť toľko prvkov ako na klasických šnurovacích.
+                    </p>
+                </div>
+                <div class="card-header bg-dark text-white mb-1 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                        <a class="card-title">
+                            Sú nové korčule už nabrúsené?
+                        </a>
+                    </div>
+                    <div id="collapseSeven" class="card-body collapse" data-parent="#accordion" >
+                        <p>Nie, nové korčule predávajú štandardne nenabrúsené, preto treba po zakúpení dať korčule hneď nabrúsiť. Korčule brúsia na každom štadióne v Bratislave aj v Pezinku.
+                        </p>
+                    </div>                                 
+            </div>
+        </div>
+    </div>
+{% endblock %}

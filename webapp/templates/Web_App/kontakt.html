@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="contact">
+        <div class="container">
+            <h1 class="text-center pt-4 pb-3">Naše kontaktné údaje</h1>
+            <p class="text-center w-75 m-auto">Nenašli ste, čo ste hľadali, alebo potrebujete poradiť? Neváhajte sa na nás obrátiť telfonicky alebo emailom. 
+                Radi Vám odpovieme a poradíme. Tešíme sa Vás. </p>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+                <div class="card border-0">
+                   <div class="card-body text-center">
+                     <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                     <h5 class="text-uppercase mb-5">Zavolajte</h5>
+                     <h4 class="font-weight-bold">+421 902 443 898</h4>
+                   </div>
+                 </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+                <div class="card border-0">
+                    {% load static %}
+                    <img class="img-fluid mx-auto d-block pt-4" src="{% static "Web_App/images/black_logo.jpg" %}" alt="logo">
+                 </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+                <div class="card border-0">
+                   <div class="card-body text-center">
+                     <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                     <h5 class="text-uppercase mb-5">email</h5>
+                     <h4 class="font-weight-bold">info@piruetka.sk</h4>
+                   </div>
+                 </div>
+              </div>
+            </div>
+        </div>
+     </section>
+
+<div class="container socialmedia">
+    <div class="d-flex justify-content-center">
+    <ul>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+</div>
+   
+{% endblock %}
